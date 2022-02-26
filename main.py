@@ -340,7 +340,6 @@ class Urunler:
         pdf = FPDF()
         pdf.add_page()
         pdf.set_font('Arial', 'B', 12)
-        pdf.cell(5, 5, 'HALLO WORLD')
         pdf.cell(7, 20, self.e1.get())
         pdf.cell(7, 35, self.e2.get())
         pdf.cell(7, 50, self.e3.get())
